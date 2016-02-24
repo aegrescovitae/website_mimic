@@ -45,3 +45,129 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/*==============================
+
+==============================*/
+
+/*==============================
+Custom Style
+==============================*/
+
+body {
+  background-color: #808080;
+}
+.centertext {
+  text-align: center;
+}
+
+.title {
+  margin-top: 15px;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+/*==============================
+Header
+==============================*/
+
+.header {
+  height: 40px;
+  border-bottom: 1px solid white;
+  margin-bottom: 10px;
+}
+
+
+/*==============================
+Nav
+==============================*/
+
+.nav {
+  margin-left: 20px;
+  display: inline-block;
+  height: 200px;
+  width: 150px;
+  border: 1px dashed black;
+}
+
+.nav ul {
+  list-style: circle;
+  margin: 20px 0 0 20px;
+}
+
+.nav li {
+  margin-bottom: 7px;
+}
+.nav h1 {
+  font-weight: bold;
+  font-size: 1.3em;
+  margin: 10px 0 0 10px;
+}
+
+/*==============================
+Restaurant Image
+==============================*/
+
+.restaurantimage {
+  position: relative;
+  float: right;
+  right: 150px;
+}
+
+.restaurantimage img {
+  height: 200px;
+  margin: 0 40px 40px 0;
+}
+
+/*==============================
+Border
+==============================*/
+
+.border {
+  border-top: 1px solid white;
+}
+
+
+/*==============================
+About Jake's
+==============================*/
+
+.aboutjakes {
+  display: inline-block;
+  width: 50%;
+  margin: 0 20px 0 20px;
+}
+
+.aboutjakes h1 {
+  margin-bottom: 40px;
+  text-decoration: underline;
+}
+
+/*==============================
+Hours
+==============================*/
+
+.hours {
+  border-left: 3px solid black;
+  display: inline-block;
+  float: right;
+  width: 40%;
+}
+
+.hours h1 {
+  margin-bottom: 40px;
+  text-decoration: underline;
+}
+
+/*==============================
+Menu
+==============================*/
+
+.menu {
+  width: 80%;
+  margin-left: 20%;
+}
+
+.menu img {
+  margin: 0 auto;
+}
