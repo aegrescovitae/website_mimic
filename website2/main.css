@@ -74,16 +74,14 @@ Header
 .header {
   height: 40px;
   border-bottom: 1px solid white;
-  margin-bottom: 10px;
 }
-
 
 /*==============================
 Nav
 ==============================*/
 
 .nav {
-  margin-left: 20px;
+  margin: -20px 0 20px 20px;
   display: inline-block;
   height: 200px;
   width: 150px;
@@ -109,14 +107,13 @@ Restaurant Image
 ==============================*/
 
 .restaurantimage {
-  position: relative;
-  float: right;
-  right: 150px;
+  display: inline-block;
+  margin-left: 10%;
+  margin-top: 10px;
 }
 
 .restaurantimage img {
   height: 200px;
-  margin: 0 40px 40px 0;
 }
 
 /*==============================
