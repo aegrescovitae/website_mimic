@@ -111,9 +111,10 @@ Websites Table
   margin-top: 40px;
 }
 
-.websitetable li, th {
-  border: 1px solid black;
-  margin: 1px;
+.websitetable td, th, tr {
+  border-style: double;
+  border: 2px solid black;
+  padding: 2px;
 }
 
 .websitetable thead {
@@ -122,7 +123,6 @@ Websites Table
 
 .websitetable table {
   background-color: lightgrey;
-  border: 1px solid black;
   width: 80%;
   margin: 0 auto;
 }
